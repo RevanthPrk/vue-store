@@ -1,5 +1,6 @@
 <template>
   <Dashboard />
+  <p>hiii</p>
 </template>
 
 <script setup>
