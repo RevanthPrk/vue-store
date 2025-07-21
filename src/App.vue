@@ -88,9 +88,9 @@ const show = ref(false)
     <button class="tab" :class="current === 'One' ? 'active' : ''" @click="current = 'One'">Tab One</button>
     <button class="tab" :class="current === 'Two' ? 'active' : ''" @click="current = 'Two'">Tab Two</button>
   </div>
-  <KeepAlive>
+  <!-- <KeepAlive> -->
     <component :is="currentComponent" />
-  </KeepAlive>
+  <!-- </KeepAlive> -->
 </template>
 
 <script setup>
